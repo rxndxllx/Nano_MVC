@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    padding: 30px;
+    font-family: "Open Sans", sans-serif;
+}
+
+    .success {
+        color: green;
+    }
+
+    .error {
+        color: red;
+    }
+
+    .login, .register {
+        width: 20rem;
+        text-align: right;
+    }
+        h1 {
+            text-align: left;
+        }
+
+        .login div, .register div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-block: 10px;
+        }
+
+            div input {
+                padding: 2px;
+            }
+
+            input[type=submit] {
+                padding: 5px 8px;
+                cursor: pointer;
+            }

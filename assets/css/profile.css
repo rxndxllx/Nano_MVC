@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    padding: 30px;
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+    form {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+        form input {
+            background: none;
+            border: none;
+            text-decoration: underline;
+            color: dodgerblue;
+            cursor: pointer;
+        }
+
+    .info {
+        border: 1px solid black;
+        padding: 30px;
+        margin-top: 20px;
+        width: 30rem;
+    }
